@@ -1,1 +1,38 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?_gl=1*19qxlga*_ga*MTg4NTI4NzE4Ni4xNzY1NDMwOTI5*_ga_8JE65Q40S6*czE3NjU0MzA5MjkkbzEkZzEkdDE3NjU0MzA5MzckajUyJGwwJGgw");
+    background-size: cover;
+}
+.clock{
+     width: 100%;
+     max-width: 380px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.1),
+     0px 10px 20px rgba(0,0,0,0.7);
+     height: 24vh;
+     border-radius: 12px;
+     padding: 20px; 
+     border: 2px solid rgba(255, 255, 255, 0.3) ;  
+}
+.clock h1{
+    font-size: 60px;
+    font-weight: 600;     
+}
+.clock span{
+    position: relative;
+    top: -13%;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 500;
+}
